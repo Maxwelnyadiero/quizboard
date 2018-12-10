@@ -29,3 +29,27 @@ var questions = [{
   0
 },
 }]
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+  $("button#white").click(function(){
+    $("body").addClass("white-background");
+  });
+});
+$(document).ready(function(){
+  $("button#brown").click(finction() {
+    $("body").addClass("brown-background");
+  });
+});
+$(document).ready(function(){
+  $("button#blue").click(function(){
+    $("body").addClass("blue-background");
+  });
+});
