@@ -1,6 +1,14 @@
-h1{
-  color: red;
-  font-size: 30px;
+h1 {
+  colour: red;
   text-decoration: underline;
   text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+p {
+  color: brown;
+  font-size: 15px;
+  padding: 10px;
+  font-family: monospace;
+  margin: auto;
 }
