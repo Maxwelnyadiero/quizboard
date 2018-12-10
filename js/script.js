@@ -1,34 +1,39 @@
-(function(){
-var questions = [{
-  question:"what is 15*7?",
-  choices: [100, 105, 125, 115],
-  correctAnswer:
-  1
-}, {
-  question:
-  "what is 20*5?",
-  choices: [50, 60, 102, 100],
-  correctAnswer:
-  3
-}, {
-  question:
-  "what is 16*5?",
-  choices: [70, 80, 90, 75],
-  correctAnswer:
-  1
-}, {
-  question:
-  "what is the other name of javascript",
-  choices: ['vue', 'array', 'ECMAScript'],
-  correctAnswer:
-}, {
-  question:
-  "what is 10*50?",
-  choices: [500, 0, 50, 5000],
-  correctAnswer:
-  0
-},
-}]
+var testResult=function(one, two, three, four, five){
+  return one+two+three+four+five;
+};
+$("form#test").submit(function(event){
+  var Question1 = parseInt($("input:radio[name = Question1]:check").value());
+   if($("input:radio[name = "Question1"]:check").length == 0){
+     $("#Question1").text("An answer is required");
+             return false;
+   }
+   $("form#test").submit(function(event){
+     var Question2 = parseInt($("input:radio[name = "Question1"]:check").value());
+      if($("input:radio[name = Question1]:check").length == 0){
+        $("#Question1"text("An answer is required");
+                return false;
+      }
+      var Question3 = parseInt($("input:radio[name = "Question3"]:check").value());
+        if($("input:radio[name = "Question3"]:check").length == 2){
+          $("#Question3").text("An answer is required");
+                return false;
+      }
+      var Question4 = parseInt($("input:radio[name = "Question4"]:check").value());
+        if($("input:radio[name ="Question4"]:check").length == 5){
+          $("#Question4").text("An answer is required");
+                return false;
+      }
+      var Question5 = parseInt($("input:radio[name = "Question5"]:check").value());
+        if($("input:radio[name = "Question5"]:check").length == 4){
+          $("#Question5").text("An answer is required");
+                return false;
+      }
+      var result = testResults(Question1, Question2, Question3, Question4, Question5);
+
+      $("#display").text("Your score is: " + result + " /50");
+
+
+  });
 
 
 
