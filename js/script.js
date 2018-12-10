@@ -10,5 +10,22 @@ var questions = [{
   choices: [50, 60, 102, 100],
   correctAnswer:
   3
-}
+}, {
+  question:
+  "what is 16*5?",
+  choices: [70, 80, 90, 75],
+  correctAnswer:
+  1
+}, {
+  question:
+  "what is the other name of javascript",
+  choices: ['vue', 'array', 'ECMAScript'],
+  correctAnswer:
+}, {
+  question:
+  "what is 10*50?",
+  choices: [500, 0, 50, 5000],
+  correctAnswer:
+  0
+},
 }]
