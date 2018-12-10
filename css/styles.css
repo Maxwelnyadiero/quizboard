@@ -12,3 +12,12 @@ p {
   font-family: monospace;
   margin: auto;
 }
+.white-background {
+  background-color: white;
+}
+.brown-background {
+  background-color: brown;
+}
+.blue-background {
+  background-color: blue;
+}
