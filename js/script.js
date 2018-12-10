@@ -43,13 +43,28 @@ $(document).ready(function(){
     $("body").addClass("white-background");
   });
 });
-$(document).ready(function(){
+
   $("button#brown").click(finction() {
     $("body").addClass("brown-background");
-  });
 });
-$(document).ready(function(){
+
   $("button#blue").click(function(){
     $("body").addClass("blue-background");
-  });
 });
+});
+$(document).ready(function() {
+       $("button#white").click(function() {
+         $("body").removeClass();
+         $("body").addClass("white-background");
+       });
+
+       $("button#brown").click(function() {
+         $("body").removeClass();
+         $("body").addClass("brown-background");
+       });
+
+       $("button#blue").click(function() {
+         $("body").removeClass();
+         $("body").addClass("blue-background");
+       });
+     });
