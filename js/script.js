@@ -7,17 +7,17 @@ var testResults = function(one, two, three, four, five) {
 
 
 $("form#test").submit(function(event) {
-  var Question1 = parseInt($("input:radio[name = Question1]:checked").val());
+  var Question1 = parseInt($("input:radio[name = Question1]:checked").value());
   if ($("input:radio[name = Question1]:checked").length == 0) {
     $('#Question1').text("An answer is required");
     return false;
   }
-  var Question2 = parseInt($("input:radio[name = Question2]:checked").val());
+  var Question2 = parseInt($("input:radio[name = Question2]:checked").value());
   if ($("input:radio[name = Question2]:checked").length == 0) {
     $('#Question2').text("An answer is required");
     return false;
   }
-  var Question3 = parseInt($("input:radio[name = Question3]:checked").val());
+  var Question3 = parseInt($("input:radio[name = Question3]:checked").value());
   if ($("input:radio[name = Question3]:checked").length == 0) {
     $('#Question3').text("An answer is required");
     return false;
