@@ -6,18 +6,21 @@ h1 {
   font-family: sans-serif;
 }
 p {
-  color: brown;
+  color: violet;
   font-size: 15px;
   padding: 10px;
   font-family: monospace;
   margin: auto;
 }
-.white-background {
-  background-color: white;
-}
-.brown-background {
-  background-color: brown;
-}
-.blue-background {
-  background-color: blue;
-}
+.green-background {
+       background-color: green;
+     }
+
+     .yellow-background {
+       background-color: yellow;
+     }
+
+     .red-background {
+       background-color: red;
+     }
+   

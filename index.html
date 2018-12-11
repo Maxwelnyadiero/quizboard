@@ -1,93 +1,140 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
- <link href="css/styles.css" rel="stylesheet" type="text/css">
- <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-    <title>Quiz Board</title>
-  </head>
-  <body>
-    <h1><strong>Quiz Board</strong></h1>
-    <p>Answer all the questions.<br>each correct answer earns 10marks<br>kindly be sirious with the test,best wishes</p>
-    <h2>Questions</h2>
-      <div class="column">
-      <div class="row">
-        <div class="col-md-8">...</div>
-        <div class="col-md-5">...</div>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Quiz Board</title>
+</head>
+
+<body>
+  <h1><strong>Quiz Board</strong></h1>
+  <p>Answer all the questions.<br>each correct answer earns 10marks<br>kindly be sirious with the test,best wishes</p>
+  <div class="column">
+    <div class="row">
+      <div class="col-md-3">...</div>
+      <div class="col-md-4">...</div>
+      <form id="test">
+  <h2>Javascript Quiz</h2>
+
+  <div class="column">
+    <div class="col-md-2"> </div>
+     <div class="col-md-8">
         <form id="test">
-          <p>1."what is 15*7?"</p>
+
+            <p>1.What is JavaScript?</p>
           <div class="well">
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="0">
-                105
-              </label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question1" value="3">
+                  Object-oriented programming language
+                </label>
               </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="Question1" value="0">
-                125
-              </label>
-            </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question1" value="0">
+                  Standardized system for tagging text files
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question1" value="0">
+                  I don't know
+                </label>
+              </div>
           </div>
-          <p>2."what is 0/0?"</p>
+
+           <p>2.Do I have to buy JavaScript?</p>
+          <div class="well">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question2" value="0">
+                  Yes.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question2" value="3">
+                  No.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question2" value="1">
+                  I'm not sure.
+                </label>
+              </div>
+          </div>
+
+              <p>3. What is JScript?</p>
+          <div class="well">
+                <div class="radio">
+                <label>
+                  <input type="radio" name="Question3" value="3">
+                  Microsoft's version of Netscape's JavaScript.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question3" value="1">
+                  Short form of JavaScript
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question3" value="0">
+                  I'm not sure.
+                </label>
+              </div>
+            </div>
+
+           <p>4. Are JavaScript and JScript the same?</p>
+         <div class="well">
+             <div class="radio">
+               <label>
+                 <input type="radio" name="Question4" value="1">
+                 More or less
+               </label>
+             </div>
+             <div class="radio">
+               <label>
+                 <input type="radio" name="Question4" value="3">
+                 Yes
+               </label>
+             </div>
+             <div class="radio">
+               <label>
+                 <input type="radio" name="Question4" value="0">
+                 I don't know
+               </label>
+             </div>
+         </div>
+
+          <p>5. What is ECMAScript?</p>
           <div class="well">
             <div class="radio">
               <label>
-                <input type="radio" name="Question2" value="0">
-                Nan
+                <input type="radio" name="Question5" value="1">
+                Something that deals with JavaScript
               </label>
             </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="Question2" value="1">
-            0
-          </label>
-        </div>
-      </div>
-      <p>3."what is the other name for javascript?"</p>
-      <div class="well">
-        <div class="radio">
-          <label>
-            <input type="radio" name="Question3" value="2">
-            ECMAScript
-          </label>
-        </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="Question3" value="5">
-        vue
-      </label>
-    </div>
-  </div>
-  <p>.4 "what is javascript"</p>
-  <div class="well">
-    <div class="radio">
-      <label>
-        <input type="radio" name="Question4" value="5">
-        is the programming language for the web
-      </label>
-    </div>
-  <div class="radio" name="Question4" value="4">
-    A list of records that contains both strings and numbers
-  </label>
-</div>
-</div>
-<p>5. "what is 57%4?"</p>
-<div class="well">
-  <div class="radio">
-    <label>
-      <input type="radio" name="Question5" value="4">
-      14.3
-    </label>
-  </div>
-<div class="radio" name="Question5" value="6">
-  14
-</label>
-</div>
-</div>
-<button type="submit" class="btn-success">Submit</button>
+            <div class="radio">
+              <label>
+                <input type="radio" name="Question5" value="3">
+                Standard for a scripting language.
+              </label>
+            </div>
+            <div class="radio">
+                <label>
+                  <input type="radio" name="Question5" value="0">
+                   None of the above
+                </label>
+              </div>
+            </div>
+
+                <button type="submit" class="btn-success">Submit</button>
 
               <div class="finalResult">
                 <p> <span id="display"></span> </p>
@@ -96,14 +143,13 @@
            </div>
          </div>
       </div>
-    </div>
-
-  <p>If you click these buttons you will get how my background-colors will be:</p>
-  <button class="btn btn-success" id="white">White</button>
-  <button class="btn btn-success" id="brown"Brown</button>
-  <button class="btn btn-success" id="blue"Blue</button>
-
-
+ </div>
+ <div class="container">
+   <h3>Whats your fovorite color</h3>
+ <p>If you click either of the buttons you will see how my webpage will appear</p>
+ <button class="btn btn-success" id="green">Green</button>
+ <button class="btn btn-warning" id="yellow">Yellow</button>
+   <button class="btn btn-danger" id="red">Red</button>
 
   </body>
-</html>
+ </html>
