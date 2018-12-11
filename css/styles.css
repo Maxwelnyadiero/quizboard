@@ -5,6 +5,7 @@ h1 {
   font-size: 30px;
   font-family: sans-serif;
 }
+
 p {
   color: violet;
   font-size: 15px;
@@ -12,15 +13,23 @@ p {
   font-family: monospace;
   margin: auto;
 }
+
 .green-background {
-       background-color: green;
-     }
+  background-color: green;
+}
 
-     .yellow-background {
-       background-color: yellow;
-     }
+.yellow-background {
+  background-color: yellow;
+}
 
-     .red-background {
-       background-color: red;
-     }
-   
+.red-background {
+  background-color: red;
+}
+nav > ul > a > li{
+  colour:purple;
+  font-size: 15px;
+  padding: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  display: inline;
+}
