@@ -34,3 +34,6 @@ nav>ul>a>li {
   font-weight: bold;
   display: inline;
 }
+img{
+  float: right;
+}
